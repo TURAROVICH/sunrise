@@ -12,9 +12,8 @@ export default ()=>{
 
 
     //handle submit
-    const handle = (e) => {
+    const handle =  (e) => {
         e.preventDefault()
-
 
         //request options
         const headers =  {
@@ -27,12 +26,13 @@ export default ()=>{
         //check all state if al  states is true then make request to some domain
         if(name && company && telegram && description){
             fetch(' https://domain.com/spa/sunrise',headers).then(data=>{
-                //do log data
+               alert('отправлено')
                 console.log(data);
             })
             //if occurred some error
             .catch(error=>{
                 //log some error
+               alert('оишибка  в запросе')
                 console.log(error);
             })
         }
