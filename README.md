@@ -1,4 +1,4 @@
-#sun-rise testing project
+# sun-rise testing project
 <h2> steps </h2>
 # 1 : clone
 # 2 : npm i
