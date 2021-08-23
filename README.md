@@ -1,7 +1,7 @@
 # sun-rise testing project
 <h2> steps </h2>
-# 1 : clone
-# 2 : npm i
+# 1:clone <br>
+# 2:npm i
 
 //for developing
 # 3 : npm start
