@@ -1,0 +1,15 @@
+.input-container{
+    width: 100%;
+}
+input{
+    width: 300px;
+    height: 24px;
+    border: none;
+    outline: none;
+}
+.noError{
+    border-bottom: 1px solid #21A95D;
+}
+.hasError{
+    border-bottom: 1px solid #EB5757;
+}
