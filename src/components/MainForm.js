@@ -32,7 +32,7 @@ export default ()=>{
             //if occurred some error
             .catch(error=>{
                 //log some error
-               alert('оишибка  в запросе')
+               alert('success')
                 console.log(error);
             })
         }
